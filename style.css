@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("/order-summary-component-main/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-width: 375px;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+    width: 90%;
+    border-radius: 3%;
+    overflow: hidden;
+    max-width: 600px;
+    
+}
+
+.hero{
+    width: 100%;
+    height: auto;
+}
+
+.second-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.second-button a:link{
+    text-decoration: none;
+}
+
+.second-button a:visited{
+    color: hsl(224, 23%, 55%);
+}
+
+.second-button a:hover{
+    color: #000;
+}
+
+.title-2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.price{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+
+}
+
+.link{
+    display: block;
+    font-weight: 500;
+}
+
+.second-button{
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 20px;
+}
+
+.description{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 10%;
+}
+
+.first-button{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.bttn{
+    width: 80%;
+}
+
+.first-button:hover{
+    background-color: hsl(245, 50%, 52%);
+}
+
+@media (min-width: 400px){
+
+    body{
+        background-image: url("/order-summary-component-main/images/pattern-background-mobile.svg");
+    }
+
+}
+
+footer{
+    text-align: center;
+    font-size: 0.8rem;
+}
